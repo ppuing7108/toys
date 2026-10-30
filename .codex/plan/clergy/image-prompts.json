@@ -1,0 +1,17 @@
+{
+  "mode": "built-in image_gen",
+  "images": [
+    {
+      "key": "pastor",
+      "prompt": "Use case: illustration-story. Asset type: final square editorial illustration for a premium Korean playful personality quiz result card, reusable in a web page and PNG share card. Style: sophisticated hand-painted gouache with subtle paper grain, rounded friendly shapes, refined picture-book editorial art, warm ivory background, muted jewel colors, art-directed cinematic light, visually rich but uncluttered. Square composition, the subject occupies the central 75 percent, generous margins, no lettering, no typography, no logos, no watermark. Respectful, warm, neither satire nor proselytizing. Subject: a kind young adult Korean Protestant pastor with short dark hair, simple navy jacket over casual shirt (no Catholic collar), welcoming a small diverse group at a long community table under a golden spreading tree, hands offering a mug, smiling naturally. Meaning: bringing people together and using one's gifts to serve. Palette: amber, apricot, dark teal, ivory. Small city community garden, lantern-like sunlight, warm and lively. A single cohesive scene, not a collage."
+    },
+    {
+      "key": "priest",
+      "prompt": "Use case: illustration-story. Asset type: final square editorial illustration for a premium Korean playful personality quiz result card, reusable in a web page and PNG share card. Style: sophisticated hand-painted gouache with subtle paper grain, rounded friendly shapes, refined picture-book editorial art, warm ivory background, muted jewel colors, art-directed cinematic light, visually rich but uncluttered. Square composition, the subject occupies the central 75 percent, generous margins, no lettering, no typography, no logos, no watermark. Respectful, warm, neither satire nor proselytizing. Subject: a kind young adult Korean Catholic priest with black clerical shirt and small white Roman collar, gently tending a small luminous garden beside a quiet arched stone courtyard; watering a plant while a visitor rests comfortably on a bench nearby, conveying attentive practical care. Meaning: steady compassion, faithfulness in small actions, not rigid rules. Palette: wine burgundy, dusty rose, deep navy, warm ivory. A single cohesive scene, not a collage. No ornate vestments, no mitre."
+    },
+    {
+      "key": "monk",
+      "prompt": "Use case: illustration-story. Asset type: final square editorial illustration for a premium Korean playful personality quiz result card, reusable in a web page and PNG share card. Style: sophisticated hand-painted gouache with subtle paper grain, rounded friendly shapes, refined picture-book editorial art, warm ivory background, muted jewel colors, art-directed cinematic light, visually rich but uncluttered. Square composition, the subject occupies the central 75 percent, generous margins, no lettering, no typography, no logos, no watermark. Respectful, warm, neither satire nor proselytizing. Subject: a kind adult Korean Buddhist monk with shaved head and simple modest gray robes, seated peacefully beside a pond under a wide pine tree, watching a leaf drift down a stream; a small bird rests nearby. Meaning: observing changing thoughts with compassion, not detachment from people. Palette: jade green, mist blue, soft ochre, warm ivory. Gentle morning sunlight, lush painterly landscape. A single cohesive scene, not a collage. No Hindu or Tibetan dress."
+    }
+  ]
+}
