@@ -159,7 +159,8 @@
   }
 
   function drawQR(ctx, url, x, y, size) {
-    var qr = root.qrcode(0, 'M');
+    // 단축 링크라 Q 단계로 올려도 150px 안에 칸 4px가 나온다. 메신저 압축에 덜 깨진다
+    var qr = root.qrcode(0, 'Q');
     qr.addData(url);
     qr.make();
     var count = qr.getModuleCount();
