@@ -63,9 +63,19 @@
     window.scrollTo(0, 0);
   }
 
-  function baseUrl() { return location.origin + location.pathname; }
+  // 해시는 리다이렉트를 거쳐도 브라우저가 유지하므로 단축 링크 뒤에 그대로 붙인다.
+  // 로컬에서는 운영 사이트로 넘어가지 않게 배포 사이트에서만 쓴다.
+  function shareShortUrl() {
+    var meta = document.querySelector('meta[name="share-short-url"]');
+    return meta && /\.github\.io$/.test(location.hostname) ? meta.content : '';
+  }
+  function baseUrl() { return shareShortUrl() || location.origin + location.pathname; }
   function resultUrl(scores) { return baseUrl() + '#' + S.encodeHash(scores); }
-  function shortUrl() { return location.host + location.pathname.replace(/index\.html$/, '').replace(/\/$/, ''); }
+  function shortUrl() {
+    var short = shareShortUrl();
+    if (short) return short.replace(/^https?:\/\//, '');
+    return location.host + location.pathname.replace(/index\.html$/, '').replace(/\/$/, '');
+  }
 
   function clearHash() {
     if (location.hash) history.replaceState(null, '', location.pathname + location.search);
